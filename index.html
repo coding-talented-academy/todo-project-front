@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <title>Todo App</title>
+</head>
+<body>
+    
+    <div id="weather-info">
+        <span id="weather"></span>
+        <span id="city"></span>
+    </div>
+    
+
+    <h2 id="clock">00:00:00</h2>
+
+    <form id="login-form" class="hidden">
+        <input id="input-name" required maxlength="15" type="text" placeholder="What is your name?"/>
+        
+    </form>
+
+
+    <h1 id="greeting" class="hidden">Hello</h1>
+
+    <form id="todo-form">
+        <input id="input-todo" type="text" placeholder="Write a Todo And Press Enter!"/>
+    </form>
+
+    <ul id="todo-list"></ul>
+
+    <div id="quote">
+        <span></span>
+        <br/>
+        <span></span>
+    </div>
+    
+    <div id="logout">LogOut</div>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/logout.js"></script>
+    
+</body>
+</html>
